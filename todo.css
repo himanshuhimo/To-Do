@@ -1,0 +1,42 @@
+body{
+    background-color:rgb(202, 200, 200);
+}
+.center{
+    position:center;
+    margin: auto;
+    width: 600px;
+    height: auto ;
+}
+.inputs{
+    background-color: rgb(26, 172, 172);
+    text-align: center;
+    padding: 30px;
+    margin: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.outputs{
+    background-color: whitesmoke;
+    width: auto;
+    height: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+button{
+    float : right;
+    margin-right: 5px;
+    margin-bottom: 4px;
+    font-size: 10px;
+    border: none;
+    border-radius: 2px;
+}
+button:hover{
+    background-color: rgb(102, 97, 97);
+    color: white;
+}
+input{
+    width: 75%;
+    border: none;
+    border-radius: 10px;
+}
+.popup{
+    display: none;
+}
